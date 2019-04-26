@@ -6,19 +6,19 @@ import { RegisterUiComponent } from './components/register-ui/register-ui.compon
 import { ProfileComponent } from './components/profile/profile.component';
 const routes: Routes = [
     { 
-        path:'login',
+        path:'MeanStackNew/login',
         component:LoginUiComponent
     },
     {
-        path:'',
+        path:'MeanStackNew',
         component:HomeComponent
     },
     {
-        path:'register',
+        path:'MeanStackNew/register',
         component:RegisterUiComponent
     },
     {
-        path:'profile',
+        path:'MeanStackNew/profile',
         component:ProfileComponent
     }
 ];
